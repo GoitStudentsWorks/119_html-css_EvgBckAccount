@@ -1,1 +1,1 @@
-import './src/js/modal'
+import './js/modal'
