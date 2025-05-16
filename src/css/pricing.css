@@ -123,14 +123,3 @@ height: 46px
 .pricing-btn-primary:hover {
 background-color: #B0C7ED;
 }
-
-/* Tablet styles */
-
-@media (min-width: 768px) {
-  
-}
-
-/* Desktop styles */
-@media (min-width: 1200px) {
-  
-}
