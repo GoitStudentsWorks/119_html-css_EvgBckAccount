@@ -1,31 +1,37 @@
+.about_us {
+  background: #dfebeb;
+}
+
 .title-about-us {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
-  font-size: 52px;
+  font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
-  margin-bottom: 24px;
+  color: #0d0b0a;
+  margin-bottom: 20px;
 }
 
 .title-desc-about-us {
   font-family: 'Sarabun', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .title-about {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0.01em;
   text-align: center;
-  margin-bottom: 24px;
+  color: #0d0b0a;
+  margin-bottom: 20px;
 }
 
 .title-desc-about {
@@ -34,18 +40,14 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 48px;
 }
 
 .about-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.about-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  text-align: center;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .button-about {
@@ -57,7 +59,7 @@
 
   border: 1px solid #c2d9fc;
   border-radius: 100px;
-  max-width: 110px;
+  width: 343px;
   height: 46px;
 
   display: flex;
@@ -66,13 +68,22 @@
   margin: 40px auto 112px auto;
 }
 
-@media only screen and (min-width: 768px) {
+.join-desktop {
+  display: none;
+}
+
+.join-mobile {
+  display: inline;
+}
+
+@media only screen and (min-width: 767px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
 
   .about-list {
+    flex-direction: row;
     column-gap: 24px;
     row-gap: 46.5px;
     flex-wrap: wrap;
@@ -90,6 +101,56 @@
     font-size: 24px;
     margin-bottom: 0;
   }
+
+  .join-mobile {
+    display: none;
+  }
+
+  .join-desktop {
+    display: inline;
+  }
 }
 
-@media only screen and (min-width: 3px);
+@media only screen and (min-width: 1201px) {
+  .container {
+    max-width: 1336px;
+    padding: 0 12px;
+  }
+
+  .title-about-us {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+
+  .title-desc-about-us {
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .title-about {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+  }
+
+  .title-desc-about {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .about-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .about-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    text-align: center;
+  }
+
+  .button-about {
+    font-size: 16px;
+    max-width: 110px;
+    height: 46px;
+  }
+}
