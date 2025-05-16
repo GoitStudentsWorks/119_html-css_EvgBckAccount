@@ -1,0 +1,136 @@
+/* === Секція Pricing Plans === */
+
+.pricing-plans{
+  padding: 64px 16px;
+  background-color: #F8FBFE;
+}
+
+.pricing-title{
+  margin-bottom: 48px;
+}
+
+.pricing-lable {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+color: #0D0B0A;
+
+}
+
+.pricing {
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0D0B0A;
+}
+
+.pricing-subtitle {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+color: #0D0B0A;
+}
+
+/* === Контейнер карток === */
+.pricing-plans-content {
+display: flex;
+flex-direction: column;
+gap: 32px;
+width: 100%;
+justify-content: center;
+}
+
+
+
+
+/* === Картка тарифу === */
+.pricing-card {
+border: 0px solid  #0D0B0A;
+border-radius: 16px;
+padding: 32px 24px;
+width: 343px;
+height: 378px;
+background-color: #F2F7FE;
+}
+.pricing-card-header{
+margin: 32px 24px 24px 24px;
+}
+
+.pricing-card-title {
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0D0B0A;
+}
+
+
+
+.pricing-card-price {
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 44px;
+line-height: 120%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0D0B0A;
+
+}
+
+/* === Список переваг === */
+.pricing-card-features {
+padding: 8px 0px;
+}
+
+.features{
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+}
+
+
+
+
+
+
+/* === Іконка галочки === */
+.icon-pricing-check {
+fill: #0D0B0A;
+
+ 
+}
+
+/* === Кнопка Join === */
+.pricing-btn-primary {
+border: 1px solid #C2D9FC;
+border-radius: 100px;
+padding: 10px 24px;
+width: 295px;
+background-color: #C2D9FC;
+height: 46px
+}
+
+.pricing-btn-primary:hover {
+background-color: #B0C7ED;
+}
+
+/* Tablet styles */
+
+@media (min-width: 768px) {
+  
+}
+
+/* Desktop styles */
+@media (min-width: 1200px) {
+  
+}
