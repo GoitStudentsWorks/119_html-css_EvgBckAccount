@@ -248,14 +248,13 @@
     .backdrop {
 
         width: 1440px;
-        height: 829px;
+
     }
 
     .modal {
 
         padding: 64px;
         width: 768px;
-        height: 573px;
         display: flex;
 
     }
@@ -263,13 +262,11 @@
     .form-input-name {
         color: rgba(13, 11, 10, 0.5);
         width: 640px;
-
     }
 
     .form-input-contacts {
 
         width: 308px;
     }
-
 
 }
