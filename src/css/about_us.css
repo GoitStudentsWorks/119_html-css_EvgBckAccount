@@ -77,11 +77,6 @@
 }
 
 @media only screen and (min-width: 767px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .about_us {
     background-color: #f2fafa;
   }
@@ -116,11 +111,6 @@
 }
 
 @media only screen and (min-width: 1201px) {
-  .container {
-    max-width: 1336px;
-    padding: 0 12px;
-  }
-
   .title-about-us {
     font-size: 52px;
     margin-bottom: 24px;
