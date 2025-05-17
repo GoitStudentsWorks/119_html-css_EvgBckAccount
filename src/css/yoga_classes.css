@@ -1,0 +1,140 @@
+.yogaclass {
+  background: #f2fafa;
+}
+
+.yogaclass-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1336px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yogaclass-header-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.yoga-subtitle {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d0b0a;
+  margin-top: 112px;
+  margin-bottom: 16px;
+}
+
+.yoga-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  width: 768px;
+  margin-bottom: 24px;
+}
+
+.yoga-description {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  width: 768px;
+  margin-bottom: 40px;
+}
+
+.yogaclass-header-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.yoga-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 64px;
+  margin-left: 64px;
+  gap: 24px;
+}
+
+.yoga-card-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.yoga-card-image {
+  width: calc((100% - 48px) / 3);
+}
+
+.yoga-card-picture {
+  border-radius: 16px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.yoga-card-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 24px;
+  width: 421px;
+}
+
+.yoga-card-description {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 40px;
+  width: 421px;
+}
+
+.yoga-join-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 40px;
+  margin-bottom: 112px;
+}
+
+.yoga-join {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  padding: 10px 24px;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  background: #c2d9fc;
+}
+
+.yoga-join:hover,
+:focus {
+  border: 1px solid #c2d9fc;
+}
