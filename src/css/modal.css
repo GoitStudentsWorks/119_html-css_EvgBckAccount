@@ -66,7 +66,6 @@
 
 .icons-close {
     fill: #0d0b0a;
-    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-title {
@@ -95,6 +94,7 @@
 }
 
 .modal-price {
+
     font-family: "Cabin", sans-serif;
     font-weight: 400;
     font-size: 44px;
@@ -105,17 +105,11 @@
 
 }
 
-/* .form-field { 
-    margin-bottom: 24px;
- } */
-
 .form-label-name {
 
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
-
-
 }
 
 .form-label-contacts {
@@ -146,6 +140,7 @@
     border-radius: 12px;
     padding: 8px 12px;
     width: 343px;
+
 }
 
 .form-input-contacts {
@@ -182,7 +177,6 @@
         width: 768px;
         height: 1024px;
 
-
     }
 
     .modal {
@@ -207,8 +201,6 @@
     .modal-price {
         font-size: 36px;
     }
-
-    /* .modal-form {}  */
 
     .form-input-name {
         color: rgba(13, 11, 10, 0.5);
@@ -249,5 +241,35 @@
         display: block;
         margin: 0 auto;
     }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .backdrop {
+
+        width: 1440px;
+        height: 829px;
+    }
+
+    .modal {
+
+        padding: 64px;
+        width: 768px;
+        height: 573px;
+        display: flex;
+
+    }
+
+    .form-input-name {
+        color: rgba(13, 11, 10, 0.5);
+        width: 640px;
+
+    }
+
+    .form-input-contacts {
+
+        width: 308px;
+    }
+
 
 }
