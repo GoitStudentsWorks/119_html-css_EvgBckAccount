@@ -219,16 +219,23 @@
     .form-input-contacts {
         color: rgba(13, 11, 10, 0.5);
         width: 248px;
-        margin-left: 0px;
+
     }
 
     .form-label-contacts {
         display: flex;
-        margin-left: 24px;
+
+    }
+
+    .form-label-em {
+        margin-right: 24px;
     }
 
     .form-field-contacts {
         display: flex;
+
+
+
     }
 
     .form-field-contacts {
@@ -239,6 +246,8 @@
     .send-btn {
         align-items: center;
         width: 155px;
+        display: block;
+        margin: 0 auto;
     }
 
 }
