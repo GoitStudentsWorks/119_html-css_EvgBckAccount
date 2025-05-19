@@ -22,13 +22,33 @@
   margin-bottom: 12px;
 }
 
+
+.pricing-label {
+font-family: "Sarabun", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+color: #0d0b0a;
+}
+
 .pricing-name {
-  font-size: 40px;
+font-size: 40px;
+font-family: "Cabin", sans-serif;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0d0b0a;
 }
 
 .pricing-subtitle {
-  font-size: 16px;
-  line-height: 1.6;
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+color: #0d0b0a;
 }
 
 .pricing-plans-content {
@@ -58,11 +78,24 @@
 }
 
 .pricing-card-title {
-  font-size: 18px;
+font-size: 18px;
+font-family: "Cabin", sans-serif;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0d0b0a;
 }
 
 .pricing-card-price {
-  font-size: 44px;
+  
+font-family: "Cabin", sans-serif;
+font-weight: 400;
+font-size: 44px;
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0d0b0a;
 }
 
 .pricing-packages {
