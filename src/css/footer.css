@@ -41,6 +41,14 @@
 }
 
 /* Email form */
+
+
+.elements-of-form {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
 .footer-input {
     width: 100%;
     padding: 16px;
@@ -48,12 +56,6 @@
     border-radius: 12px;
     background: rgba(13, 11, 10, 0.05);
     flex: 1;
-}
-
-.elements-of-form {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
 }
 
 .footer-btn {
