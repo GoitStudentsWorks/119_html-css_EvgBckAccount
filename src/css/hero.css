@@ -13,7 +13,7 @@
 }
 
 .hero-content {
-  background-color: #ffffff;
+  background-color: #f2fafa;
   /* position: absolute; */
   width: 100%;
   max-width: 1200px;
@@ -30,7 +30,7 @@
 }
 
 .hero-title-main {
-  font-family: 'Georgia', serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 400;
   font-size: 44px;
   line-height: 120%;
@@ -40,7 +40,7 @@
 }
 
 .hero-title-text {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
