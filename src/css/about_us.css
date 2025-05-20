@@ -1,5 +1,6 @@
 .about_us {
   background-color: #dfebeb;
+  padding: 64px 0;
 }
 
 .title-about-us {
@@ -65,7 +66,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px auto 112px auto;
+  margin: 40px auto 0 auto;
 }
 
 .join-desktop {
@@ -79,6 +80,7 @@
 @media only screen and (min-width: 767px) {
   .about_us {
     background-color: #f2fafa;
+    padding: 80px 0 40px;
   }
 
   .about-list {
@@ -110,7 +112,12 @@
   }
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1336px) {
+  
+  .about_us {
+    padding: 112px 0;
+  }
+
   .title-about-us {
     font-size: 52px;
     margin-bottom: 24px;
