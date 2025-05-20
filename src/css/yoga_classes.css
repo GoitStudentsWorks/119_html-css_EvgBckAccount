@@ -5,6 +5,7 @@
 
 .yogaclass {
   background: #f2fafa;
+  padding: 64px 0;
 }
 
 .yogaclass-header {
@@ -28,7 +29,7 @@
   text-align: center;
   color: #0d0b0a;
   margin-bottom: 12px;
-  margin-top: 64px;
+  /*margin-top: 64px;*/
 }
 
 .yoga-title {
@@ -109,15 +110,12 @@
   border-radius: 100px;
   background: #c2d9fc;
   margin-top: 40px;
-}
-
-.yoga-join {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 8px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px;*/
 }
 
 .yoga-join:hover,
@@ -134,6 +132,9 @@
 }
 
 @media (min-width: 768px) {
+  .yogaclass {
+    padding: 40px 0;
+  }
   .yogaclass-header {
     max-width: 768px;
     /* padding: 40px 32px; */
@@ -159,7 +160,7 @@
 
   .yoga-subtitle {
     margin-bottom: 16px;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
 
   .yoga-title {
@@ -216,7 +217,7 @@
 
   .yoga-join {
     padding: 10px 24px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
   }
 
   .yoga-join:hover,
@@ -238,10 +239,13 @@
     max-width: 1336px;
     /* padding: 112px 64px; */
   }
-
-  .yoga-subtitle {
-    margin-top: 112px;
+  .yogaclass {
+    padding: 112px 0;
   }
+
+  /* .yoga-subtitle {
+    margin-top: 112px;
+  }*/
 
   .yoga-list {
     gap: 24px;
@@ -276,7 +280,7 @@
     margin-bottom: 40px;
   }
 
-  .yoga-join {
+  /* .yoga-join {
     margin-bottom: 112px;
-  }
+  }*/
 }
