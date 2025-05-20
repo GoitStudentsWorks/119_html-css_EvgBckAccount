@@ -1,4 +1,4 @@
-.gallery-container {
+.gallery {
   padding: 64px 20px;
   background-color: #f2fafa;
 }
@@ -37,7 +37,7 @@
     max-width: 768px;
   }
 
-  .gallery-container {
+  .gallery {
     padding: 40px 32px;
   }
   .gallery-text-container {
@@ -56,7 +56,7 @@
     max-width: 1336px;
     padding: 0 16px;
   }
-  .gallery-container {
+  .gallery {
     padding-top: 122px;
     padding-bottom: 122px;
   }
