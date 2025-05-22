@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-team8bit/",
+    "build": "vite build --base=/119_html-css_EvgBckAccount/",
     "preview": "vite preview"
   },
   "devDependencies": {
